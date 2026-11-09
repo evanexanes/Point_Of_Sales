@@ -15,7 +15,7 @@ A Python terminal program that takes a food order, adds it up and simulates paym
 | Sinigang | ₱130 |
 | Lechon | ₱150 |
 | Lumpia | ₱80 |
-| Dinigugan | ₱80 |
+| Dinuguan | ₱80 |
 | Papaitan | ₱80 |
 | Pastil | ₱50 |
 
@@ -51,12 +51,11 @@ Press Enter to simulate payment... 💳
 
 ## What I would change today
 - Ordering the same dish twice adds two lines. A quantity prompt would be cleaner.
-- The menu spells dinuguan as `DINIGUGAN`, and an order has to use that spelling.
 - Payment is only a keypress. It should ask for the amount handed over and give change.
 - `checkout()` reads the global `menu`, and the program runs as soon as the file loads. A `main()` function behind an `if __name__ == "__main__":` check would let the functions be tested on their own.
 
 ## Notes
-`Point_Of_Sales.py` used to sit inside a second `Point_Of_Sales/` folder. It now lives at the repository root. A header and comments were added, and the logic is unchanged.
+`Point_Of_Sales.py` used to sit inside a second `Point_Of_Sales/` folder. It now lives at the repository root. A header and comments were added. The only code change is the menu spelling: dinuguan was typed `DINIGUGAN`, so ordering it by its usual name failed.
 
 ## Source file headers
 Every source file opens with a header block: program name, description, author, date compiled and a change history. A commit that changes a file adds a row to its history.

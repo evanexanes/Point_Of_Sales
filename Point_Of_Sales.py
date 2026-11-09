@@ -7,8 +7,9 @@
 # Date           Description                      Programmer name
 # ======================================================================
 # 10/17/2025     Initial Implementation           EPPE
-# 11/09/2026     Added header, comments; moved to EPPE
-#                repo root
+# 11/09/2026     Added header and comments;       EPPE with Claude
+#                moved to the repo root
+# 11/09/2026     Corrected DINUGUAN spelling      EPPE with Claude
 # ======================================================================
 
 def welcome():
@@ -64,7 +65,7 @@ menu = {
     "SINIGANG": 130,
     "LECHON": 150,
     "LUMPIA": 80,
-    "DINIGUGAN": 80,
+    "DINUGUAN": 80,
     "PAPAITAN":80,
     "PASTIL": 50
 }
