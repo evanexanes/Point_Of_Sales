@@ -10,13 +10,16 @@
 # 11/09/2026     Added header and comments;       EPPE with Claude
 #                moved to the repo root
 # 11/09/2026     Corrected DINUGUAN spelling      EPPE with Claude
+# 11/09/2026     Added function comments          EPPE with Claude
 # ======================================================================
 
 def welcome():
+    """Print the greeting that opens the program."""
     print("🍽️ Welcome to Evan's Eatery POS System!")  
     print("Please select from the menu below:\n")
 
 def show_menu(menu):
+    """Print every menu item with its price, one per line."""
     print("📋 MENU")
     for item, price in menu.items():
         print(f"{item} - ₱{price}")
