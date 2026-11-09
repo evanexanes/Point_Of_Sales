@@ -15,7 +15,13 @@
 
 </div>
 
+## What this shows
+- A first-year Python practice project: a menu of eight dishes, order taking and an itemised checkout.
+- Built from a dictionary, loops, conditionals, functions and f-strings, with no outside packages.
+- Dish names work in any case, and a dish that is not on the menu is rejected.
+
 ## Contents
+- [What this shows](#what-this-shows)
 - [About](#about)
 - [Features](#features)
 - [Run it](#run-it)
@@ -86,4 +92,4 @@ Press Enter to simulate payment... 💳
 Released under the [MIT License](LICENSE).
 
 ## Author
-**Evan Prens P. Exanes** · [GitHub](https://github.com/evanexanes) · [Portfolio](https://evanexanes.github.io/)
+**Evan Prens P. Exanes** · [GitHub](https://github.com/evanexanes) · [Portfolio](https://evanexanes.github.io/) · [Contact](https://evanexanes.github.io/07-contact.html)
