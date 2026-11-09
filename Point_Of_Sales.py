@@ -7,10 +7,10 @@
 # Date           Description                      Programmer name
 # ======================================================================
 # 10/17/2025     Initial Implementation           EPPE
-# 11/09/2026     Added header and comments;       EPPE with Claude
+# 11/09/2026     Added header and comments;       EPPE
 #                moved to the repo root
-# 11/09/2026     Corrected DINUGUAN spelling      EPPE with Claude
-# 11/09/2026     Added function comments          EPPE with Claude
+# 11/09/2026     Corrected DINUGUAN spelling      EPPE
+# 11/09/2026     Added function comments          EPPE
 # ======================================================================
 
 def welcome():
