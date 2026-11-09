@@ -9,6 +9,10 @@
 ![Made](https://img.shields.io/badge/Made-October%202025-555555)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2d4a7c.svg)](LICENSE)
 
+<img src="docs/screenshot.webp" alt="Terminal session ordering adobo and two lumpia, ending in a checkout total of 280 pesos and a simulated payment" width="520">
+
+<sub>A sample order, run from the program.</sub>
+
 </div>
 
 ## Contents
