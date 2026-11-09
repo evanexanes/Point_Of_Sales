@@ -18,7 +18,6 @@
 - [Example session](#example-session)
 - [What I would change today](#what-i-would-change-today)
 - [Notes](#notes)
-- [Source file headers](#source-file-headers)
 - [License](#license)
 - [Author](#author)
 
@@ -78,23 +77,6 @@ Press Enter to simulate payment... 💳
 
 ## Notes
 `Point_Of_Sales.py` used to sit inside a second `Point_Of_Sales/` folder. It now lives at the repository root. A header and comments were added. The only code change is the menu spelling: dinuguan was typed `DINIGUGAN`, so ordering it by its usual name failed.
-
-## Source file headers
-Every source file opens with the block below. A commit that changes a file adds a row to its history table.
-
-```text
-Program name: <file name>
-Description: <what the file does>
-Author: Exanes, Evan Prens
-Date Compiled: MM/DD/YYYY
-======================================================================
-Date           Description                      Programmer name
-======================================================================
-MM/DD/YYYY     Initial Implementation           EPPE
-======================================================================
-```
-
-`EPPE` is Evan Prens P. Exanes. A row reading `EPPE with Claude` marks a change written with AI help.
 
 ## License
 Released under the [MIT License](LICENSE).
